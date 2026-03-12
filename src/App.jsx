@@ -9,9 +9,24 @@ function App() {
       <Person/>
       <Person/>
       <Person/>
+      <Salami event={'Roja'} amount={5000} />
+      <Salami event={'Rufaida'} amount={10000} />
     </>
   );
 }
+
+function Salami({event, amount}){
+  console.log(event, amount);
+  return(
+    <div>
+      <p>Salami For: {event}</p>
+      <p>Amount: {amount} tk</p>
+
+      <p>Salami For: {event}</p>
+      <p>Amount: {amount} tk</p>
+    </div>
+  );
+};
 
 function Person() {
   const age = 21;

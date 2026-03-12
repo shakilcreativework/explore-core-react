@@ -1,16 +1,11 @@
 import "./App.css";
+import ToDo from "./ToDo";
 
 function App() {
   return (
     <>
       <h2>Hello, react</h2>
-      <Person/>
-      <Person/>
-      <Person/>
-      <Person/>
-      <Person/>
-      <Salami event={'Roja'} amount={5000} />
-      <Salami event={'Rufaida'} amount={10000} />
+      <ToDo task="Task complete of Dom" />
     </>
   );
 }

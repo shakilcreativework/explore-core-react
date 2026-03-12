@@ -17,6 +17,7 @@ function App() {
 
 function Salami({event, amount}){
   console.log(event, amount);
+  console.log(typeof event, typeof amount);
   return(
     <div>
       <p>Salami For: {event}</p>

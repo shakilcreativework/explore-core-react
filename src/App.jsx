@@ -6,13 +6,13 @@ function App() {
     <>
       <h2>Hello, react</h2>
       <ToDo task="Task complete of Dom" />
+      <Salami event={'Shakil'} amount={5000} />
     </>
   );
 }
 
 function Salami({event, amount}){
-  console.log(event, amount);
-  console.log(typeof event, typeof amount);
+  console.log(event);
   return(
     <div>
       <p>Salami For: {event}</p>
